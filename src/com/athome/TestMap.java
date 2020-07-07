@@ -94,4 +94,9 @@ public class TestMap {
 			System.out.println("key==>" + entry.getKey() + "  value==>" + entry.getValue());
 		});
 	}
+	
+	@Test
+	public void test8(){
+		System.out.println("I love you");
+	}
 }
