@@ -98,5 +98,8 @@ public class TestMap {
 	@Test
 	public void test8(){
 		System.out.println("I love you");
+		System.out.println("I love you");
+		System.out.println("I love you");
+		System.out.println("I love you");
 	}
 }
