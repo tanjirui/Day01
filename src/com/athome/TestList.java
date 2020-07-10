@@ -40,11 +40,11 @@ public class TestList {
         //⑤按年龄排序
         //list.stream().sorted((p1,p2) ->p1.getAge().compareTo(p2.getAge())).forEach(p ->System.out.println(p));
         //⑥女性且单身
-//        list.stream().filter(p ->"Female".equals(p.getGender()))
-//		        .filter(p ->"Single".equals(p.getMaritalStatus()))
-//		        .forEach(p ->System.out.println(p));
+        list.stream().filter(p ->"Female".equals(p.getGender()))
+		        .filter(p ->"Single".equals(p.getMaritalStatus()))
+		        .forEach(p ->System.out.println(p));
         //⑦并行遍历
-        list.parallelStream().forEach(p ->System.out.println(p));
+        list.parallelStream().forEach(p ->System.out.println(p));   
 	}
 }
 
